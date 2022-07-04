@@ -24,10 +24,12 @@
             <h2>Les paragraphes</h2>
             <p>Pour créer des paragraphes nous allons utiliser la balise p</p>
             <p>
-                Pour chaque nouveau <strong>paragraphe</strong> , un retour à  la ligne est crée
-                <span>automatiquement</span> par votre <em>navigateur</em> 
+                Pour chaque nouveau <strong>paragraphe</strong> , un retour à la
+                ligne est crée <span>automatiquement</span> par votre
+                <em>navigateur</em>
                 <!-- La balise <br> permet de faire un retour à la ligne dans un paragraphe -->
-                <br />(exactement comme avec les titres)
+                <br />
+                (exactement comme avec les titres)
             </p>
         </div>
 
@@ -37,6 +39,8 @@
             <h2>Les listes</h2>
             <h3>Les personnages des Simpsons</h3>
             <!-- liste non ordonnées (unordered list) -->
+
+            <!-- Nous pouvons mettre des images, des liens cliquables dans une liste -->
             <ul>
                 <li>
                     <a href="https://www.wikiwand.com/fr/Bart_Simpson">Bart</a>
@@ -61,17 +65,20 @@
 
         <div>
             <h2>Les images</h2>
-            <!-- Si l'image manque, la valeur de l'attribut alt s'affiche -->
-            <img
-                src="img/bart.png"
-                alt="Je suis une image de bart"
-                title="Bart"
-            />
-            <img src="img/error.png" alt="Je suis une image de bart" />
-            
-            <a href="https://www.wikiwand.com/fr/Bart_Simpson">
-                <img src="img/bart.png" />
-            </a>
+            <div>
+                <!-- Si l'image manque, la valeur de l'attribut alt s'affiche -->
+                <img src="img/bart.png" alt="Je suis bart" title="Bart" />
+                <img
+                    src="img/error.png"
+                    alt="Je suis le message qui s'affiche quand l'image n'est pas presente "
+                />
+            </div>
+            <div>
+                <span>Je suis une image cliquable</span>
+                <a href="https://www.wikiwand.com/fr/Bart_Simpson">
+                    <img src="img/bart.png" alt="Bart"/>
+                </a>
+            </div>
         </div>
 
         <hr />
