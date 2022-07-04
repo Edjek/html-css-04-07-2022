@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML - Formulaire</title>
+    </head>
+    <body>
+        <div>
+            <form action="">
+                <div>
+                    <label for="nom">nom</label>
+                    <input type="text" id="nom">
+                </div>
+
+                <div>
+                    <label for="mdp">mot de passe</label>
+                    <input type="password" id="mdp" >
+                </div>
+                
+                <div>
+                    <label for="email">email</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div>
+                    <label for="date">date</label>
+                    <input type="date" id="date">
+                </div>
+
+                <div>
+                    <label for="commentaire">commentaire</label>
+                    <textarea id="commentaire"></textarea>
+                </div>
+
+                <div>
+                    <label for="transport">Moyen de transport</label>
+                    <select id="transport">
+                        <option value="voiture">voiture</option>
+                        <option value="subway">metro</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Quel sport pratiquez-vous?</p>
+                    <label for="foot">foot</label>
+                    <input type="checkbox" id="foot" value="foot">
+                    <label for="escalade">escalade</label>
+                    <input type="checkbox" id="escalade" value="escalade">
+                </div>
+
+                <div>
+                    <p>Quel est votre sexe</p>
+                    <label for="men">homme</label>
+                    <input type="radio" id="men" name="sexe">
+                    <label for="women">femme</label>
+                    <input type="radio" id="women" name="sexe">
+                </div>
+
+                <input type="submit">
+            </form>
+        </div>
+    </body>
+</html>
