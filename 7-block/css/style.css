@@ -23,7 +23,6 @@ body {
     height: 200px;
     min-height: 200px;
 
-
     /* Margin sert à mettre de la marge exterieur, il y a plein de raccourcis */
 
     /* margin-top: ; */
@@ -79,7 +78,6 @@ h1 {
     align-items: center;
 }
 
-
 .definition {
     margin: 50px;
     color: #333;
@@ -91,5 +89,4 @@ span {
     display: inline;
 
     font-weight: bold;
-
 }
