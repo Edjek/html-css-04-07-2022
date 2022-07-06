@@ -47,7 +47,7 @@ body {
     padding: 20px;
 
     /* La propriété raccourci { border: } permet de preciser la taille, le style et la couleur de la bordure */
-    border: 3px solid black;
+    border: 2px solid black;
 
     /* { border-radius: } permet d'arrondir les angles */
     border-radius: 5px;
@@ -66,6 +66,7 @@ h1 {
 
 .round {
     /* La propriété border-radius avec la valeur 50% permet de faire des cercles */
+   
     border-radius: 50%;
     background-color: #eb5858;
     height: 200px;
@@ -76,6 +77,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* { box-shadow: }  permet de créer une ombre */
+    box-shadow: 4px 4px 10px #999;
 }
 
 .definition {
@@ -86,7 +90,7 @@ h1 {
 
 span {
     /* La valeur par defaut dun element inline est { display: inline; }*/
-    display: inline;
+    /* display: inline; */
 
     font-weight: bold;
 }
