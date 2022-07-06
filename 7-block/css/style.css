@@ -9,18 +9,19 @@ body {
 }
 
 .container {
+    text-align: center;
     /* { background-color: } permet de mettre une couleur de fond */
     background-color: #3498db;
     color: #fff;
 
     /* La valeur par defaut dun element block est { display: block; }*/
-    display: block;
+    /* display: block; */
 
     /* Largeur */
     width: 300px;
-    /* Hauteur */
 
-    height: 200px;
+    /* Hauteur */
+    /* height: 200px; */
     min-height: 200px;
 
     /* Margin sert à mettre de la marge exterieur, il y a plein de raccourcis */
@@ -47,13 +48,13 @@ body {
     padding: 20px;
 
     /* La propriété raccourci { border: } permet de preciser la taille, le style et la couleur de la bordure */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
     /* { border-radius: } permet d'arrondir les angles */
-    border-radius: 5px;
+    border-radius: 10px;
 
     /* { box-shadow: }  permet de créer une ombre */
-    box-shadow: 4px 4px 15px #555;
+    box-shadow: 4px 4px 10px #999;
 }
 
 h1 {
