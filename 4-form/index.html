@@ -8,22 +8,29 @@
     </head>
     <body>
         <div>
-            <!-- Un formulaire est entouré par la balise <form></form> -->
+            <!-- Un formulaire se compose de la balise <form></form> qui va entourer tous les champs -->
             <form action="">
                 <div>
-                    <!-- Le for="" du label et l'id="" de l'input doivent avoir la même valeur-->
+                    <!-- Un champ de formulaire se compose d'un <label> et de son <input> -->
+                    <!-- Pour lier les deux, l'attribut for="" et id="" doivent avoir la même valeur et être unique dans le formulaire -->
                     <label for="nom">nom</label>
-                    <input type="text" id="nom" placeholder="nom" required autofocus />
+                    <input
+                        type="text"
+                        id="nom"
+                        placeholder="nom"
+                        required
+                        autofocus
+                    />
                 </div>
 
                 <div>
                     <label for="mdp">mot de passe</label>
-                    <input type="password" id="mdp" required/>
+                    <input type="password" id="mdp" required />
                 </div>
 
                 <div>
                     <label for="email">email</label>
-                    <input type="email" id="email" required/>
+                    <input type="email" id="email" required />
                 </div>
 
                 <div>
@@ -37,7 +44,7 @@
                 </div>
 
                 <div>
-                    <!-- Les champs de type select, checkbox, radio on besoin de l'attribut value="" pour recuperer plus tard leur valeur -->
+                    <!-- Les inputs de type checkbox, radio, select, doivent avoir un attribut value="" afin d'avoir une valeur -->
                     <label for="transport">Moyen de transport</label>
                     <select id="transport">
                         <option value="voiture">voiture</option>
@@ -54,7 +61,8 @@
                 </div>
 
                 <div>
-                    <!-- Pour les boutons radios il faut la même valeur à l'attribut name="" pour cliquer sur l'un et desactiver l'autre -->
+                    <!-- Les input de type radio doivent avoir un attribut de plus, name="" -->
+                    <!-- Ils doivent avoir la même valeur pour ne pouvoir valider qu'un seul des choix -->
                     <span>Quel est votre sexe</span>
                     <label for="men">homme</label>
                     <input type="radio" id="men" name="sexe" />
@@ -62,8 +70,8 @@
                     <input type="radio" id="women" name="sexe" />
                 </div>
 
-                <!-- L'input submit permet d'envoyer le formulaire -->
-                <input type="submit" value="Valider" class="btn-submit"/>
+                <!-- IMPORTANT un form doit avoir un input type="submit" pour valider le formulaire -->
+                <input type="submit" value="Valider" class="btn-submit" />
             </form>
         </div>
     </body>
