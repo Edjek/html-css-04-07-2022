@@ -7,9 +7,9 @@
 }
 
 body {
-    color: #333;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
+    color: #333;
 }
 
 /* HEADER */
@@ -35,8 +35,5 @@ nav {
     display: flex;
     gap: 15px;
 }
-
-
-
 
 /* FOOTER */
