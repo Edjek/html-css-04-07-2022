@@ -41,7 +41,7 @@
 
 /* SECTION 1 */
 .section {
-    width: 1200px;
+    width: 90%;
     min-height: 300px;
     margin: auto;
     padding: 50px 0;
@@ -76,23 +76,16 @@
 }
 
 .up {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
     width: 40px;
     height: 40px;
-    /* border: 1px solid #333; */
     border-radius: 50%;
     background-color: rgb(206, 55, 55);
     color: #fff;
 
-    /* position: relative;
-    position: absolute; */
-    position: fixed;
-
-    /* top: ;
-    left: ;
-    right: ;
-    bottom: ; */
-    right: 20px;
-    bottom: 20px;
 
     display: flex;
     justify-content: center;
