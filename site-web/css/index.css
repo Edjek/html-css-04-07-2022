@@ -1,4 +1,44 @@
 /* MAIN */
+
+/* HERO */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    background-image: url(../img/eiffel-tower.jpg);
+    background-position: bottom;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    min-height: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0a2b19;
+    padding: 20px 60px;
+    border-radius: 5px;
+}
+
+.hero a:hover {
+    background-color: #145833;
+}
+
+.hero .para {
+    font-style: italic;
+}
+
+.hero h2 {
+    text-transform: uppercase;
+}
+
 /* SECTION 1 */
 .section {
     width: 1200px;
