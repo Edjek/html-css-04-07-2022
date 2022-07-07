@@ -74,3 +74,30 @@
 .link:hover {
     color: rgb(220, 110, 110);
 }
+
+
+.up {
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid #333; */
+    border-radius: 50%;
+    background-color: rgb(206, 55, 55);
+    color: #fff;
+
+    position: fixed;
+    /* top: ;
+    left: ;
+    right: ;
+    bottom: ; */
+    right: 20px;
+    bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up a {
+    color: #fff;
+    text-decoration: none;
+}

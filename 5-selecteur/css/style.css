@@ -39,7 +39,7 @@ h2 {
 
 /* On peut selectionner une balise spécifique par l'id en utilisant un # */
 /* Consequence l'element qui a cet id sera modifié */
-/* on préfère laisser les ID au Js sauf exception */
+/* On préfère laisser les ID au Javascript sauf exception */
 #ancre {
     /* font-size: 60px; */
 }
