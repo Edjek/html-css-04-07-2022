@@ -1,12 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+/* On import une Font Google (ici Roboto) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
+/* * signifie que cela s'applique à tous les selecteurs */
 * {
+    /* On réinitialise à 0 les valeurs par defaut des navigateurs pour {padding} et {margin} */
     margin: 0;
     padding: 0;
+    /* { box-sizing: border-box; } fixe la taille de nos element block en ajoutant les bordures et padding vers l'interieur*/
     box-sizing: border-box;
 }
 
+/* Qq propriétés générales pour toute la page */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    /* On utilise ici Roboto si elle est disponible */
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    color: #333;
 }
+
+header {
+}
+

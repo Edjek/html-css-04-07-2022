@@ -1,44 +1,36 @@
-/* INdEX MAIN 1 */
+/* MAIN */
+/* SECTION 1 */
 .section {
-    border: 1px solid #999;
-    text-align: center;
-    padding: 50px 0;
     width: 1200px;
     min-height: 300px;
     margin: auto;
-    border-radius: 5px;
-    box-shadow: 4px 4px 8px #999;
+    padding: 50px 0;
+    /* border: 1px solid #999; */
+    /* border-radius: 5px; */
+    /* box-shadow: 4px 4px 8px #999; */
+    text-align: center;
 }
 
 .section h2 {
+    margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     text-transform: uppercase;
-    margin-bottom: 30px;
 }
 
 .section span {
     font-weight: bold;
 }
 
-/* .section a {
-    color: #ff0000;
-    text-decoration: none;
-}
-
-.section a:hover {
-    color: #f05555;
-} */
-
 .section p {
     margin-bottom: 20px;
 }
 
 .link {
-    color: blue;
+    color: rgb(255, 41, 41);
     text-decoration: none;
 }
 
 .link:hover {
-    color: red;
+    color: rgb(220, 110, 110);
 }

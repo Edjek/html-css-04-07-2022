@@ -13,6 +13,29 @@ body {
 }
 
 /* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a2b19;
+    color: #fff;
+    padding: 10px 80px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #999;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
 
 
 
