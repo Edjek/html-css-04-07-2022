@@ -11,7 +11,7 @@
 
     background-image: url(../img/eiffel-tower.jpg);
     background-position: bottom;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 
     min-height: 600px;
@@ -75,7 +75,6 @@
     color: rgb(220, 110, 110);
 }
 
-
 .up {
     width: 40px;
     height: 40px;
@@ -84,7 +83,10 @@
     background-color: rgb(206, 55, 55);
     color: #fff;
 
+    /* position: relative;
+    position: absolute; */
     position: fixed;
+
     /* top: ;
     left: ;
     right: ;
