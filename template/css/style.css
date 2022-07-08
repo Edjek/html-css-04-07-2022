@@ -22,7 +22,16 @@ body {
     color: #333;
 }
 
+header {
+
+}
+
 /* Permet de faire du Responsive */
 /* A l'interieur des accolades les propriété que l'on souhaite pour un écran jusqu'à 800px */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
+}
+
+/* Pour ecran de smartphone */
+@media only screen and (max-width: 480px){
+
 }
